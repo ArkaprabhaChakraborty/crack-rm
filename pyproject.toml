@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crack-rm"
+version = "0.1.0"
+description = "WinRM shell in python. Useful for pentesting."
+license = "Apache 2.0"
+authors = ["ArkaprabhaChakraborty <chakrabortyarkaprabha998@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
